@@ -1,38 +1,25 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.background-toast{
+  background: lightpink !important;
+  border-radius: 20px !important;
+  font-size: 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.body-toast{
   color: white;
 }
+.progress-toast{
+  background: linear-gradient(to right, rgb(155, 205, 238) , rgb(174, 151, 240)) !important;
 
-.App-link {
-  color: #61dafb;
 }
+.background-toast2{
+  background: lightskyblue !important;
+  font-size: 20px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.body-toast2{
+  color: white;
+}
+.progress-toast2{
+  background: linear-gradient(to right, darkorange,white) !important;
+
 }
